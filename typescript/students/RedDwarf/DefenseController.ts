@@ -16,5 +16,6 @@ export default class YourDefenceController extends DefenceController {
 		if (!this.sensors.target) return
 		aimTurret(this.sensors.target.heading)
 		fireTorpedo(0)
+		// new change by max
 	}
 }
